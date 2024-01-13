@@ -7,6 +7,8 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/apple-touch-icon.png',
     repo: 'freegpts-org/freegpts-org.github.io',
+    docsBranch: "master",
+    docsDir: "docs",
     navbar: [
         { text: '首页', link: '/' },
         { text: '反代教程', link: '/guide/' },
