@@ -1,7 +1,14 @@
 ---
 home: true
 heroImage: /apple-touch-icon.png
-heroText: FREEGPTS
+heroText: FREEGPTS.ORG
+actions:
+  - text: 公共镜像
+    link: https://chat.freegpts.org  
+    type: primary
+  - text: 反代教程
+    link: /guide/
+    type: secondary
 features:
   - title: 中性无标
     details: 没有牛皮癣,没有引流,没有广告,没有推广,没有捆绑,没有收费,没有会员,没有积分,没有等级.
