@@ -1,0 +1,16 @@
+{
+  "name": "freegpts-org.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:freegpts-org/freegpts-org.github.io.git",
+  "author": "GCSLaoLi <cnlidong@live.cn>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-rc.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "./deploy.sh"
+  }
+}
