@@ -1,3 +1,3 @@
-# freegpt.org
+# freegpts.org
 
-这里是 [freegpt.org](https://freegpt.org) 的源码仓库.
+这里是 [freegpts.org](https://freegpts.org) 的源码仓库.
