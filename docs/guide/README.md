@@ -10,8 +10,9 @@
 
 ```caddyfile
 chat.xxx.com {
-    reverse_proxy https://chat.freegpts.org
-    header_up Host chat.freegpts.org
+	reverse_proxy https://chat.freegpts.org {
+		header_up Host chat.freegpts.org
+	}
 }
 ```
 
