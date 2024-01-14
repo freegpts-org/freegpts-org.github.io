@@ -26,6 +26,7 @@ server {
         proxy_pass https://chat.freegpts.org;
         proxy_set_header Host chat.freegpts.org;
         proxy_buffering off;
+        proxy_ssl_server_name on;
     }
 }
 ```
