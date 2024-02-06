@@ -15,8 +15,23 @@ chat.xxx.com {
 	}
 }
 ```
+## Cloudflare Workers
 
-## Nginx
+```javascript
+const hostname = "https://chat.freegpts.org";
+
+function handleRequest(request) {
+  let url = new URL(request.url);
+
+  return fetch(new Request(hostname + url.pathname, request));
+}
+
+addEventListener("fetch", (event) => {
+  event.respondWith(handleRequest(event.request));
+});
+```
+
+## Nginx(未测试)
 
 ```nginx
 server {
@@ -31,7 +46,7 @@ server {
 }
 ```
 
-## Apache
+## Apache(未测试)
 
 ```apache
 <VirtualHost *:80>
@@ -42,6 +57,3 @@ server {
 </VirtualHost>
 ```
 
-## Cloudflare Workers
-
-TODO
