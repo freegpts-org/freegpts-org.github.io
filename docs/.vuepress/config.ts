@@ -13,6 +13,7 @@ export default defineUserConfig({
         { text: '首页', link: '/' },
         { text: '反代教程', link: '/guide/' },
         { text: '公共镜像', link: 'https://chat.freegpts.org' },
+        { text: '免费车队', link: 'https://share.freegpts.org' },
         { text: '交流社区', link: 'https://github.com/orgs/freegpts-org/discussions' },
     ],
   })
