@@ -12,6 +12,7 @@ export default defineUserConfig({
     navbar: [
         { text: '首页', link: '/' },
         { text: '反代教程', link: '/guide/' },
+        { text: '项目推荐', link: '/project/' },
         { text: '违规公示', link: '/shame/' },
         { text: '公共镜像', link: 'https://chat.freegpts.org' },
         { text: '免费车队', link: 'https://share.freegpts.org' },
