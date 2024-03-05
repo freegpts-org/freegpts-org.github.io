@@ -32,3 +32,20 @@ GitHub: [https://github.com/xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4
 - 实现前端接口转标准api(通过access_token实现标准api传入访问)
 
 GitHub: [https://github.com/oliverkirk-sudo/WarpGPT](https://github.com/oliverkirk-sudo/WarpGPT)
+
+## SoruxGPT
+
+说明：  
+基于蟑螂容器进行扩展，提供多节点多用户的商业化管理能力。    
+特点：  
+- 节点管理：支持多个节点的调度管理。支持容器的自动部署安装，方便快捷的管理蟑螂节点。    
+- 用户管理：支持用户管理。支持用户限速、审查、节点权限编辑等。  
+- 聊天审计：支持聊天内容审计，关键词检查屏蔽。    
+- 速率限制：支持对用户单独限速，对节点限速。
+- 商业化运作：支持注册登录，支付系统和兑换码系统，支持商店购买商品，一条龙的商业化服务。
+- 公告系统：支持公告系统，允许系统主动通知用户。
+- 定制版：定制版还额外支持 ChatGPT API 和 MidJourney API 继承，让你的站点可以一站式托管所有 ChatGPT 和 MJ 服务，统一计费。  
+- 等等
+   
+Github ：https://github.com/liaosunny123/Sorux-GPT-Panel  
+说明文档 ：https://liaosunny123.github.io/SoruxGPT-Docs/  
