@@ -50,6 +50,19 @@ GitHub: [https://github.com/oliverkirk-sudo/WarpGPT](https://github.com/oliverki
 Github ：https://github.com/liaosunny123/Sorux-GPT-Panel  
 说明文档 ：https://liaosunny123.github.io/SoruxGPT-Docs/  
 
+
+## chatgpt-share-web
+
+- chatgpt-share-server的二开项目
+- 同步用户所有车的聊天记录，一键换车，自动换车
+- 禁止多设备登陆，用户名和密码登录
+- 按单用户限制使用额度
+- 用户订阅到期前的提示，可跳转发卡续费等
+
+GitHub: [https://github.com/jurieo/chatgpt-share-web](https://github.com/jurieo/chatgpt-share-web.git)  
+docker: [https://hub.docker.com/r/jurieo/gpt-share-server](https://hub.docker.com/r/jurieo/gpt-share-server)
+
+
 ## ChatGPT-Share-Web
 
 介绍: 
@@ -71,3 +84,4 @@ Github ：https://github.com/liaosunny123/Sorux-GPT-Panel
 
 Github：
 https://github.com/realnoob007/ChatGPT-Share-Web
+
