@@ -47,8 +47,8 @@ GitHub: [https://github.com/oliverkirk-sudo/WarpGPT](https://github.com/oliverki
 - 定制版：定制版还额外支持 ChatGPT API 和 MidJourney API 继承，让你的站点可以一站式托管所有 ChatGPT 和 MJ 服务，统一计费。  
 - 等等
    
-Github ：https://github.com/liaosunny123/Sorux-GPT-Panel  
-说明文档 ：https://liaosunny123.github.io/SoruxGPT-Docs/  
+Github ：[https://github.com/liaosunny123/Sorux-GPT-Panel](https://github.com/liaosunny123/Sorux-GPT-Panel)  
+说明文档 ：[https://liaosunny123.github.io/SoruxGPT-Docs/](https://liaosunny123.github.io/SoruxGPT-Docs/)  
 
 
 ## chatgpt-share-web
