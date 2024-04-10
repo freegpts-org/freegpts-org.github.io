@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-d87ca4b8","path":"/shame/","title":"违规耻辱柱","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1709610143000,"contributors":[{"name":"GCSLaoLi","email":"cnlidong@live.cn","commits":1}]},"filePathRelative":"shame/README.md"}');export{e as data};
