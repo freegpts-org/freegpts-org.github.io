@@ -50,41 +50,20 @@ GitHub: [https://github.com/oliverkirk-sudo/WarpGPT](https://github.com/oliverki
 Github ：[https://github.com/liaosunny123/Sorux-GPT-Panel](https://github.com/liaosunny123/Sorux-GPT-Panel)  
 说明文档 ：[https://liaosunny123.github.io/SoruxGPT-Docs/](https://liaosunny123.github.io/SoruxGPT-Docs/)  
 
+## RefreshXyhelperToV1api
 
-## chatgpt-share-web
+介绍：
 
-- chatgpt-share-server的二开项目。
-- 同步用户所有车的聊天记录，一键换车，自动换车。
-- 禁止多设备登陆，用户名和密码登录。
-- 按单用户限制使用额度。
-- 用户订阅到期前的提示，可跳转发卡续费等。
-- 注册，登陆，推广，返佣，提现，兑换，一条龙服务，让你专心做甩手掌柜。
-- 兑换码可配置按周期、额度、使用量、金额、使用时间、是否为plus等个性化组合配置，每种配置都能满足你的要求。
-- 人机对抗，arkose验证，wss还是see，绕过cloudflare，turnstile，你都不需要考虑，有强大且专业的团队为你保驾护航。
+基于[RefreshToV1Api](https://github.com/Yanyutin753/RefreshToV1Api)二开的backend-api转v1项目，有且仅适配xyhelper的付费接入点。
 
-GitHub: [https://github.com/jurieo/chatgpt-share-web](https://github.com/jurieo/chatgpt-share-web.git)  
-docker: [https://hub.docker.com/r/jurieo/gpt-share-server](https://hub.docker.com/r/jurieo/gpt-share-server)
+更新说明：
+- 有且仅适配xyhelper的付费接入点
+- 内置gpts，请勿添加gpt-4-gizmo-*模型，模型已内置
+- 输入的key为: refresh_token
+- 处理了模型的空回复，不再出现空回复
+- 当发现429时，在限制时间内不可访问，减少频繁访问429导致的封号问题。
+- 支持使用team额度，在refresh_token后加上account_id即可
+- 支持获取account_id, 接口：/getAccountID, 请求头：Authorization : Bearer {refresh_token}, 提交方式 POST
 
-
-## ChatGPT-Share-Web
-
-介绍: 
-
-基于xyhelper的ChatGPT-Share项目二次开发的商业版镜像站，包含完整用户系统，对接ChatGPT官网全部功能，支付系统，以及管理员后台面板。
-
-
-演示站点:
-[web.planetzero.cn](https://web.planetzero.cn/)
-
-功能特点：
-- 完整的用户系统：图形验证码、邮箱、手机号注册、登录、忘记密码及管理个人资料。
-- 1:1的官网UI：跟随官网更新的UI系统，提供与官网一模一样的体验感。
-- 全面的ChatGPT功能接入：直接从我们的平台访问ChatGPT的所有特性：3.5, 4.0, 插件，联网，画图，高级分析等全部官网功能。
-- 分销与推广机制：通过批量创建兑换码可以轻松对接下级代理，用户也可以凭邀请码赚取积分。
-- 账号池机制：以账号池为基石，用户随意切换流动于所有开放的账户，用最高效的运营模式，确保最大化收益。
-- 支付系统集成：填入相关服务参数即可实时收款、购买积分或服务。
-- 管理员后台：从集中的面板管理用户、创建营销活动、查看分析数据和控制站点设置。
-
-Github：
-https://github.com/realnoob007/ChatGPT-Share-Web
-
+Github:
+[https://github.com/captain1271/RefreshXyhelperToV1api.git](https://github.com/captain1271/RefreshXyhelperToV1api)
