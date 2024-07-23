@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-574f0eab","path":"/shame/fuguo.html","title":"富国基金","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"违规证据","slug":"违规证据","link":"#违规证据","children":[]}],"git":{"updatedTime":1709610143000,"contributors":[{"name":"GCSLaoLi","email":"cnlidong@live.cn","commits":1}]},"filePathRelative":"shame/fuguo.md"}');export{e as data};
