@@ -16,7 +16,7 @@ export default defineUserConfig({
         // { text: '违规公示', link: '/shame/' },
         { text: '公共镜像', link: 'https://chat.freegpts.org' },
         { text: '免费车队', link: 'https://share.freegpts.org' },
-        { text: '交流社区', link: 'https://github.com/orgs/freegpts-org/discussions' },
+        { text: '交流群组', link: 'https://t.me/xyhelper' },
     ],
   })
 })
