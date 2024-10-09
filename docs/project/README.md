@@ -51,26 +51,11 @@ Github ：[https://github.com/liaosunny123/Sorux-GPT-Panel](https://github.com/l
 说明文档 ：[https://liaosunny123.github.io/SoruxGPT-Docs/](https://liaosunny123.github.io/SoruxGPT-Docs/)  
 
 
-## chatgpt-share-web
-
-- chatgpt-share-server的二开项目。
-- 同步用户所有车的聊天记录，一键换车，自动换车。
-- 禁止多设备登陆，用户名和密码登录。
-- 按单用户限制使用额度。
-- 用户订阅到期前的提示，可跳转发卡续费等。
-- 注册，登陆，推广，返佣，提现，兑换，一条龙服务，让你专心做甩手掌柜。
-- 兑换码可配置按周期、额度、使用量、金额、使用时间、是否为plus等个性化组合配置，每种配置都能满足你的要求。
-- 人机对抗，arkose验证，wss还是see，绕过cloudflare，turnstile，你都不需要考虑，有强大且专业的团队为你保驾护航。
-
-GitHub: [https://github.com/jurieo/chatgpt-share-web](https://github.com/jurieo/chatgpt-share-web.git)  
-docker: [https://hub.docker.com/r/jurieo/gpt-share-server](https://hub.docker.com/r/jurieo/gpt-share-server)
-
-
 ## ChatGPT-Share-Web
 
 介绍: 
 
-基于xyhelper的ChatGPT-Share项目二次开发的商业版镜像站，包含完整用户系统，对接ChatGPT官网全部功能，支付系统，以及管理员后台面板。
+基于xyhelper的ChatGPT-Share项目二次开发的商业版镜像站，包含完整用户系统，对接ChatGPT官网全部功能，支付系统，以及管理员后台面板，只支持xyhelper的网关。
 
 
 演示站点:
@@ -86,5 +71,5 @@ docker: [https://hub.docker.com/r/jurieo/gpt-share-server](https://hub.docker.co
 - 管理员后台：从集中的面板管理用户、创建营销活动、查看分析数据和控制站点设置。
 
 Github：
-https://github.com/realnoob007/ChatGPT-Share-Web
+[https://github.com/realnoob007/ChatGPT-Share-Web](https://github.com/realnoob007/ChatGPT-Share-Web)
 
